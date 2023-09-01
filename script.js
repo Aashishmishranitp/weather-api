@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function changeBackground() {
         currentIndex = (currentIndex + 1) % imageUrl.length;
-        backgroud.src = `image/${imageUrl[currentIndex]}`;
+        backgroud.src = `/${imageUrl[currentIndex]}`;
     }
 
     // Start the automatic background slide
