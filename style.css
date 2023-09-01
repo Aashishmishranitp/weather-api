@@ -1,0 +1,279 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.head {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #CAEDFF;
+  position: fixed;
+  opacity: 1;
+  position: relative;
+}
+
+.flag1 {
+  height: inherit;
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  list-style-type: none;
+  margin: 0;
+}
+
+.flag2 {
+  width: 30vw;
+  height: inherit;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.flag3 {
+  width: 45vw;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: capitalize;
+  list-style-type: none;
+  margin: 0;
+}
+
+.flag3>li>a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 4vh;
+  font-weight: 500;
+  color: green;
+}
+
+#logo1 {
+  height: 12vh;
+  width: 12vh;
+  border-radius: 50%;
+}
+
+.heading>h1 {
+  color: green;
+}
+
+#search {
+  width: 25vw;
+  height: 6vh;
+  font-size: 3vh;
+  border-radius: 2vh;
+}
+
+#submit {
+  height: 5vh;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+}
+
+#weather {
+  width: 30%;
+  height: 30vh;
+  text-align: center;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 4px;
+  position: absolute;
+  top: 15vh;
+  left: 50%;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+.flag3>li>a:hover {
+  color: crimson;
+
+}
+
+.homepage img {
+  border-radius: 20px;
+  margin: 5px;
+  padding: 0;
+  width: 100%;
+  height: 70vh;
+}
+
+.facility {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+.facility_item {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.facility_item>a {
+  text-decoration: none;
+  font-size: 4vh;
+  font-weight: 600;
+  color: lightseagreen;
+}
+
+.care {
+  display: grid;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.bg1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 500px;
+}
+
+h2 {
+  /* margin-top: 50px; */
+  text-align: center;
+  font-size: 40px;
+  font-family: "Trajan Pro Regular";
+  margin: 0;
+  padding: 0;
+  color: crimson;
+}
+
+hr {
+  width: 15%;
+  /* align-self: center; */
+  border-style: dotted none none;
+  border-top-width: 10px;
+  border-top-color: aqua;
+  opacity: 0.6;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(172, 59, 59);
+  border-color: blueviolet;
+
+}
+
+#image {
+  opacity: 0.5;
+  height: 150px;
+
+
+}
+
+.doctor {
+  position: relative;
+  color: blue;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.docimage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.o {
+  border-radius: 400px;
+  height: 250px;
+  width: 250px;
+
+}
+
+#imgc1 {
+  float: left;
+}
+
+#imgc2 {
+  float: right;
+}
+
+.wrapper {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  color: rgb(233, 83, 83);
+
+}
+
+.mid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+
+}
+
+#health {
+  height: 300px;
+}
+
+#hos {
+  margin-bottom: 0px;
+  font-size: 2rem;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  text-align: center;
+
+}
+
+.hospital>p>a {
+  text-decoration: none;
+  font-size: 4vh;
+  font-weight: 600;
+  color: lightseagreen;
+}
+
+.imghos {
+  height: 220px;
+  width: 300px;
+}
+
+#about {
+  width: 100%;
+  height: 200px;
+}
